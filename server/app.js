@@ -8,7 +8,7 @@ var mongoose = require("mongoose");
 
 var cors = require("cors");
 
-var mongoDB = "mongodb+srv://Express:Express@cluster0.hfe0t.mongodb.net/<dbname>?retryWrites=true&w=majority"
+var mongoDB = "mongodb"
 
 mongoose.connect(mongoDB, {
   useNewUrlParser: true,
